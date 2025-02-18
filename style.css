@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #CACDD2;
     overflow-x: auto; /* Enables full-page horizontal scrolling */
     overflow-y: hidden; /* Prevents vertical scroll */
     white-space: nowrap;
@@ -14,19 +14,23 @@ body {
 
 .land {
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 40px;
     display: flex;
 }
 
 .land-left h1 {
     font-size: 4em;
     margin-bottom: 40px;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
+    color: #C0C1C6;
    
 }
 
 .land-left {
-    width: 500px;
+    width: 400px;
+    position: sticky;
+    top: 0;
+    left: 20px;
 }
 
 .land-left p {
@@ -36,7 +40,7 @@ body {
 }
 
 .marked {
-    background-color: rgb(220, 235, 248);
+    background-color: #DADADD;
 }
 
 .first-top {
@@ -60,6 +64,9 @@ body {
     border-radius: 20px;
     margin-top: 60px;
     margin-left: -60px;
+    position: relative;
+    top: -10px;
+    z-index: 2;
     /* overflow-x: auto; */
 }
 
@@ -114,6 +121,7 @@ color: rgb(194, 193, 193);
     background-color: whitesmoke ;
     margin-right: 30px;
     width: 550px;
+    z-index: 2;
 }
 
 
@@ -170,6 +178,7 @@ color: rgb(194, 193, 193);
     background-color: white;
     border-radius: 20px;
     margin-right: 40px;
+    z-index: 2;
 }
 
 .third img {
